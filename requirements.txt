@@ -1,0 +1,14 @@
+# Data Manipulation
+pandas==2.1.4
+numpy==1.26.4
+
+# Cloud Integration (Google Cloud)
+google-cloud-bigquery==3.15.0
+google-auth==2.26.1
+
+# Data Science & Forecasting
+statsmodels==0.14.1
+scipy==1.11.4
+
+# Visualization
+matplotlib==3.8.2
