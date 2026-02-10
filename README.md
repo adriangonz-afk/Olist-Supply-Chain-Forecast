@@ -92,22 +92,20 @@ The project follows a modern ELT (Extract, Load, Transform) pipeline architectur
 └── requirements.txt    # Python environment dependencies
 
 ```
-
-How to Reproduce Locally
+## How to Reproduce Locally
 This project is designed to be fully reproducible without requiring access to the private Google Cloud environment.
 
-Clone the Repository:
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/adriangonz-afk/Olist-Supply-Chain-Forecast.git](https://github.com/adriangonz-afk/Olist-Supply-Chain-Forecast.git)
+    ```
 
-Bash
-git clone [https://github.com/adriangonz-afk/Olist-Supply-Chain-Forecast.git](https://github.com/adriangonz-afk/Olist-Supply-Chain-Forecast.git)
-Set up the Python Environment:
+2.  **Set up the Python Environment:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Bash
-pip install -r requirements.txt
-Run the Analysis:
-
-The data/ folder contains the processed CSV files exported from BigQuery.
-
-Open dashboard/Suplly Chain Report.pbix in Power BI Desktop.
-
-If prompted, update the data source settings to point to the data/ folder on your local machine.
+3.  **Run the Analysis:**
+    * The `data/` folder contains the processed CSV files exported from BigQuery.
+    * Open `dashboard/Suplly Chain Report.pbix` in Power BI Desktop.
+    * If prompted, update the data source settings to point to the `data/` folder on your local machine.
