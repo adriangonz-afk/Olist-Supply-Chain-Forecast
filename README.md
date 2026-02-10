@@ -5,9 +5,17 @@
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-BigQuery_&_Storage-4285F4?style=flat&logo=google-cloud&logoColor=white)
 
 ## Project Overview
-This project delivers an end-to-end data engineering and analytics solution for Olist, a Brazilian e-commerce platform. The objective is to mitigate supply chain inefficiencies by integrating cloud-based data warehousing, statistical demand forecasting, and business intelligence.
+This project delivers an end-to-end data engineering and analytics solution for **Olist**, the largest department store in Brazilian marketplaces. The objective is to mitigate supply chain inefficiencies by integrating cloud-based data warehousing, statistical demand forecasting, and business intelligence.
 
-By analyzing over 100,000 historical records, this solution provides a robust mechanism to monitor logistical performance and predict future inventory requirements, bridging the gap between raw operational data and strategic decision-making.
+By analyzing over **100,000 historical records**, this solution provides a robust mechanism to monitor logistical performance and predict future inventory requirements, bridging the gap between raw operational data and strategic decision-making.
+
+---
+
+## Data Source
+**Brazilian E-Commerce Public Dataset by Olist**
+* **Source:** [Kaggle - Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+* **Description:** A real commercial dataset containing 100k orders made at Olist Store from 2016 to 2018. It allows viewing an order from multiple dimensions: order status, price, payment, freight performance, and customer location.
+* **Attribution:** Special thanks to Olist for releasing this dataset to the Data Science community.
 
 ---
 
@@ -82,3 +90,24 @@ The project follows a modern ELT (Extract, Load, Transform) pipeline architectur
 ├── sql/                # SQL Scripts used for BigQuery transformations
 ├── etl/                # Documentation for Power Query/M connections
 └── requirements.txt    # Python environment dependencies
+
+```
+
+How to Reproduce Locally
+This project is designed to be fully reproducible without requiring access to the private Google Cloud environment.
+
+Clone the Repository:
+
+Bash
+git clone [https://github.com/adriangonz-afk/Olist-Supply-Chain-Forecast.git](https://github.com/adriangonz-afk/Olist-Supply-Chain-Forecast.git)
+Set up the Python Environment:
+
+Bash
+pip install -r requirements.txt
+Run the Analysis:
+
+The data/ folder contains the processed CSV files exported from BigQuery.
+
+Open dashboard/Suplly Chain Report.pbix in Power BI Desktop.
+
+If prompted, update the data source settings to point to the data/ folder on your local machine.
