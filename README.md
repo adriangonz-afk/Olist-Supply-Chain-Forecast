@@ -5,9 +5,9 @@
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-BigQuery_&_Storage-4285F4?style=flat&logo=google-cloud&logoColor=white)
 
 ## Project Overview
-This project delivers an end-to-end data engineering and analytics solution for **Olist**, the largest department store in Brazilian marketplaces. The objective is to mitigate supply chain inefficiencies by integrating cloud-based data warehousing, statistical demand forecasting, and business intelligence.
+This project delivers an end-to-end data engineering and analytics solution for Olist, the largest department store in Brazilian marketplaces. The objective is to mitigate supply chain inefficiencies by integrating cloud-based data warehousing, statistical demand forecasting, and business intelligence.
 
-By analyzing over **100,000 historical records**, this solution provides a robust mechanism to monitor logistical performance and predict future inventory requirements, bridging the gap between raw operational data and strategic decision-making.
+By analyzing over 100,000 historical records, this solution provides a robust mechanism to monitor logistical performance and predict future inventory requirements, bridging the gap between raw operational data and strategic decision-making.
 
 ---
 
