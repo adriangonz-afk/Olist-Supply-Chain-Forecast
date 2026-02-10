@@ -53,11 +53,10 @@ WHERE
     AND o.order_purchase_timestamp IS NOT NULL;
 
 
-/* TABLA AGREGADA PARA FORECAST
-Objetivo: Contar cuántos pedidos hubo por semana para modelar la demanda.
-*/
+/* ADDED TABLE FOR FORECAST
+Objective: To count how many orders there were per week in order to model demand.*/
 SELECT
-    -- Truncar la fecha al inicio de la semana (Lunes)
+    -- Truncate the date at the beginning of the week (Monday)
     DATE_TRUNC(DATE(order_purchase_timestamp), WEEK) AS semana,
     COUNT(DISTINCT order_id) AS total_pedidos
 FROM `Supply_Chain_Analytics.orders`
